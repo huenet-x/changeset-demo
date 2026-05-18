@@ -1,5 +1,12 @@
 # @my/app
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [be7b400]
+  - @my/utils@2.1.0
+
 ## 1.0.1
 
 ### Patch Changes
