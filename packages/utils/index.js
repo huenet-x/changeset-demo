@@ -8,4 +8,8 @@ function farewell(name) {
   return `Goodbye, ${name}!`;
 }
 
-module.exports = { greet, farewell };
+function add(a, b) {
+  return a + b;
+}
+
+module.exports = { greet, farewell, add  };
