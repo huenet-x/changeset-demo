@@ -3,4 +3,9 @@ function greet(name) {
   return `Hello, ${name}!`;
 }
 
-module.exports = { greet };
+// 这是我们新增的功能
+function farewell(name) {
+  return `Goodbye, ${name}!`;
+}
+
+module.exports = { greet, farewell };
