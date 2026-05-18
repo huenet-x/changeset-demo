@@ -1,6 +1,6 @@
-// 当前只有一个简单的函数
-function greet(name) {
-  return `Hello, ${name}!`;
+// 破坏了原来的调用方式！
+function greet(firstName, lastName) {
+  return `Hello, ${firstName} ${lastName}!`;
 }
 
 // 这是我们新增的功能
@@ -12,4 +12,4 @@ function add(a, b) {
   return a + b;
 }
 
-module.exports = { greet, farewell, add  };
+module.exports = { greet, farewell, add };

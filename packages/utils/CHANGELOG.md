@@ -1,5 +1,11 @@
 # @my/utils
 
+## 3.0.0
+
+### Major Changes
+
+- greet 函数参数改为 (firstName, lastName)，不再接受单个名字字符串
+
 ## 2.1.0
 
 ### Minor Changes
